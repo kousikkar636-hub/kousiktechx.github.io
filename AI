@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kousik Kar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Kousik<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <p class="tagline">Hello, I'm</p>
+      <h1>Kousik Kar</h1>
+      <p class="bio">B.Tech CSE Student & Tech Enthusiast building web applications and exploring creative software solutions.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+      <p>I am a Computer Science and Engineering student passionate about front-end web development, application building, and emerging technologies. I enjoy solving real-world problems through clean code and modern interface design.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-card">C / C++</div>
+      <div class="skill-card">HTML5 & CSS3</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Git & GitHub</div>
+      <div class="skill-card">Web Hosting & Deployment</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card">
+        <h3>Local Community Web Portal</h3>
+        <p>A responsive website designed for community organization presentation and updates.</p>
+        <span class="tech-tag">HTML • CSS • Netlify</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Secure App Concept</h3>
+        <p>A desktop/mobile utility prototype focusing on secure local data storage and clean UX.</p>
+        <span class="tech-tag">Python • SQLite</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Personal Developer Hub</h3>
+        <p>Modern developer portfolio showcasing projects, live demos, and technical skills.</p>
+        <span class="tech-tag">HTML5 • CSS3 • GitHub Pages</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-desc">Interested in collaborating or discussing a project? Drop a message!</p>
+    <div class="contact-box">
+      <a href="mailto:your-email@example.com" class="btn primary-btn">Say Hello</a>
+      <div class="social-links">
+        <a href="https://github.com/kousiktechx" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Kousik Kar. Hosted on GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
